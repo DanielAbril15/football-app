@@ -1,0 +1,28 @@
+.competitions {
+  width: 100%;
+  padding-top: 80px;
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+  background-color: var(--black);
+}
+.competitions h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: var(--pink);
+  letter-spacing: 1px;
+}
+.competitions__search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.competitions__container {
+  justify-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
